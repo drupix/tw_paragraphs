@@ -1,5 +1,11 @@
 # Tailwind CSS Paragraphs
 
+[![drupal](https://img.shields.io/badge/drupal-^8.9%20||%20^9-blue.svg?style=flat-square&logo=drupal)](https://drupal.org/)
+[![tailwindcss](https://img.shields.io/badge/tailwindcss-%3E%3D%202.2.7-blue.svg?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)
+[![LICENSE](https://img.shields.io/github/license/drupix/tw_paragraphs?style=flat-square)](https://raw.githubusercontent.com/drupix/tw_paragraphs/master/LICENSE.txt)
+
+**:warning: WARNING: tw_paragraphs is under development and not yet ready for production 🐞**
+
 ## CONTENTS OF THIS FILE
 
 * Introduction
