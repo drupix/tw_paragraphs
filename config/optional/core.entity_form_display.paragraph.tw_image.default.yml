@@ -1,0 +1,59 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    # - field.field.paragraph.tw_image.tw_background
+    # - field.field.paragraph.tw_image.tw_header
+    - field.field.paragraph.tw_image.tw_image
+    - field.field.paragraph.tw_image.tw_link
+    # - field.field.paragraph.tw_image.tw_width
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.tw_image
+  module:
+    - image
+    - link
+id: paragraph.tw_image.default
+targetEntityType: paragraph
+bundle: tw_image
+mode: default
+content:
+  # tw_background:
+  #   weight: 0
+  #   settings: {  }
+  #   third_party_settings: {  }
+  #   type: options_select
+  #   region: content
+  # tw_header:
+  #   type: string_textfield
+  #   weight: 2
+  #   region: content
+  #   settings:
+  #     size: 60
+  #     placeholder: ''
+  #   third_party_settings: {  }
+  tw_image:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  tw_link:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  # tw_width:
+  #   weight: 1
+  #   settings: {  }
+  #   third_party_settings: {  }
+  #   type: options_select
+  #   region: content
+hidden:
+  created: true
+  status: true
+  uid: true
