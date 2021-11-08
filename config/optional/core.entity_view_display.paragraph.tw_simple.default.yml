@@ -1,0 +1,49 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    # - field.field.paragraph.tw_simple.tw_background
+    # - field.field.paragraph.tw_simple.tw_header
+    - field.field.paragraph.tw_simple.tw_text
+    # - field.field.paragraph.tw_simple.tw_width
+    - paragraphs.paragraphs_type.tw_simple
+  module:
+    # - options
+    - text
+id: paragraph.tw_simple.default
+targetEntityType: paragraph
+bundle: tw_simple
+mode: default
+content:
+  # tw_background:
+  #   weight: 0
+  #   label: hidden
+  #   settings: {  }
+  #   third_party_settings: {  }
+  #   type: list_key
+  #   region: content
+  # tw_header:
+  #   type: string
+  #   weight: 2
+  #   region: content
+  #   label: hidden
+  #   settings:
+  #     link_to_entity: false
+  #   third_party_settings: {  }
+  tw_text:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  # tw_width:
+  #   weight: 1
+  #   label: hidden
+  #   settings: {  }
+  #   third_party_settings: {  }
+  #   type: list_key
+  #   region: content
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,55 @@
+tw-paragraphs:
+  css:
+    component:
+      css/tw-paragraphs.css: { }
+      # css/tw-paragraphs-columns.css: {  }
+      # css/tw-paragraphs-colors.css: { }
+      # css/tw-paragraphs.min.css: { minified: true }
+      # css/tw-paragraphs-columns.min.css: { minified: true }
+      # css/tw-paragraphs-colors.min.css: { minified: true }
+# tw-accordion:
+#   css:
+#     component:
+#       css/tw-paragraphs-accordion.min.css: { preprocess: false, minified: true }
+#   js:
+#     js/tw-paragraphs-accordion.js: { preprocess: false }
+#   dependencies:
+#     - core/jquery
+# tw-carousel:
+#   css:
+#     component:
+#       css/tw-paragraphs-carousel.min.css: { preprocess: false, minified: true }
+#   dependencies:
+#     - core/jquery
+# tw-columns:
+#   css:
+#     component:
+#       css/tw-paragraphs-columns.css: { }
+#       # css/tw-paragraphs-columns.min.css: { preprocess: false, minified: true }
+# tw-columns-two:
+#   css:
+#     component:
+#       css/tw-paragraphs-columns-two.css: { }
+#       # css/tw-paragraphs-columns-two.min.css: { preprocess: false, minified: true }
+# tw-columns-three:
+#   css:
+#     component:
+#       css/tw-paragraphs-columns-three.css: { }
+# #       css/tw-paragraphs-columns-three.min.css: { preprocess: false, minified: true }
+# tw-image:
+#   css:
+#     component:
+#       css/tw-paragraphs-image.css: { }
+#       # css/tw-paragraphs-image.min.css: { preprocess: false, minified: true }
+# tw-modal:
+#   css:
+#     component:
+#       css/tw-paragraphs-modal.min.css: { preprocess: false, minified: true }
+#   dependencies:
+#     - core/jquery
+# tw-tabs:
+#   css:
+#     component:
+#       css/tw-paragraphs-tabs.min.css: { preprocess: false, minified: true }
+#   dependencies:
+#     - core/jquery

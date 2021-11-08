@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.tw_text
+    - paragraphs.paragraphs_type.tw_simple
+  module:
+    - text
+id: paragraph.tw_simple.tw_text
+field_name: tw_text
+entity_type: paragraph
+bundle: tw_simple
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,23 @@
+name: Tailwind CSS Paragraphs
+type: module
+description: A suite of Paragraph bundles made for Tailwind CSS framework.
+# package: drupal-solutions
+package: Paragraphs
+#core: 8.x
+core_version_requirement: ^8 || ^9
+# configure: base_module.config
+dependencies:
+  # - drupal:block
+  # - drupal:field
+  # - drupal:file
+  # - drupal:filter
+  # - drupal:image
+  # - drupal:link
+  # - drupal:options
+  # - drupal:system
+  # - drupal:text
+  # - drupal:user
+  # - drupal:views
+  # - entity_reference_revisions:entity_reference_revisions
+  - paragraphs:paragraphs
+  # - viewsreference:viewsreference
