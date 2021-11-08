@@ -4,7 +4,7 @@
 [![tailwindcss](https://img.shields.io/badge/tailwindcss-%3E%3D%202.2.7-blue.svg?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)
 [![LICENSE](https://img.shields.io/github/license/drupix/tw_paragraphs?style=flat-square)](https://raw.githubusercontent.com/drupix/tw_paragraphs/master/LICENSE.txt)
 
-**:warning: WARNING: tw_paragraphs is under development and not yet ready for production 🐞**
+**:warning: WARNING: Tailwind CSS Paragraphs is under development and not yet ready for production 🐞**
 
 ## CONTENTS OF THIS FILE
 
@@ -16,7 +16,7 @@
 
 ## INTRODUCTION
 
-A suite of Paragraph bundles made for Tailwind CSS framework.
+A suite of **Drupal** Paragraph bundles made for **Tailwind CSS** framework.
 
 For content creators, attempts to use WYSIWYG editors to create structured
 layouts typically lead to frustration and compromise. With this module, you can
